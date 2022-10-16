@@ -4,6 +4,7 @@ import LogoText from '../images/logoText.png';
 import Message from '../images/message.png';
 import styled from 'styled-components/native';
 import { DATA } from '../DATA/MEMODATA';
+import { login } from '@react-native-seoul/kakao-login';
 
 export const MainPage = () => {
   const renderItem = ({ item }) => (
@@ -11,7 +12,10 @@ export const MainPage = () => {
       <MemoText>{item.title}</MemoText>
     </Memo>
   );
-  const onPressLogin = () => {};
+  const onPressLogin = async () => {
+    const result = await login();
+    console.log(result);
+  };
 
   return (
     <Container>

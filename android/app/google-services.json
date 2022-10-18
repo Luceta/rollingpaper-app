@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1024632110499",
+    "project_id": "rolling-paper-16649",
+    "storage_bucket": "rolling-paper-16649.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024632110499:android:a8834be7b3c2cd476a2e16",
+        "android_client_info": {
+          "package_name": "com.therollingpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024632110499-mbraq6g6uphpor5vd38k7mpa6c2np8k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.therollingpaper",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1024632110499-uoes8utdb6vrnapf5vues5dc8m3ap89g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoaJAGHRgR47KV4sNgtyzvuJy5gbUmPYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024632110499-uoes8utdb6vrnapf5vues5dc8m3ap89g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1024632110499-845fd8h96ip6h9b0p6oqcli219u3ojvg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.therollingpaper"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,6 +4,7 @@ import LogoText from '../images/logoText.png';
 import Message from '../images/message.png';
 import styled from 'styled-components/native';
 import { DATA } from '../DATA/MEMODATA';
+import { OnPressLogin } from '../components/login';
 
 export const MainPage = () => {
   const renderItem = ({ item }) => (
@@ -11,7 +12,6 @@ export const MainPage = () => {
       <MemoText>{item.title}</MemoText>
     </Memo>
   );
-  const onPressLogin = () => {};
 
   return (
     <Container>
@@ -37,7 +37,7 @@ export const MainPage = () => {
       </CopyTextContainer>
 
       <LoginBtnContainer>
-        <LoginBtn onPress={onPressLogin}>
+        <LoginBtn onPress={OnPressLogin}>
           <Image source={Message}></Image>
           <LoginBtnText>카카오 계정으로 시작하기</LoginBtnText>
         </LoginBtn>

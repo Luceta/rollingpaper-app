@@ -1,9 +1,9 @@
-import React from 'react';
-import { View, Image, TouchableOpacity, FlatList } from 'react-native';
-import LogoText from '../images/logoText.png';
-import Message from '../images/message.png';
-import styled from 'styled-components/native';
-import { DATA } from '../DATA/MEMODATA';
+import React from "react";
+import { View, Image, TouchableOpacity, FlatList } from "react-native";
+import LogoText from "../images/logoText.png";
+import Message from "../images/message.png";
+import styled from "styled-components/native";
+import { DATA } from "../DATA/MEMODATA";
 
 export const MainPage = () => {
   const renderItem = ({ item }) => (
@@ -80,7 +80,7 @@ const Memo = styled.View`
   margin: 4px 5px;
 `;
 const MemoText = styled.Text`
-  font-family: 'LeeSeoyun';
+  font-family: "LeeSeoyun";
 `;
 
 const CopyTextContainer = styled.View`
@@ -90,7 +90,7 @@ const CopyTextContainer = styled.View`
 const CopyText = styled.Text`
   font-size: 32px;
   font-weight: 400;
-  font-family: 'LeeSeoyun';
+  font-family: "LeeSeoyun";
 `;
 
 const LoginBtnContainer = styled.View`
